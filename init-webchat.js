@@ -3,7 +3,7 @@ function initMyWebchat(url){
     initWebchat(url, {
         settings: {
             getStartedText: '',
-            getStartedPayload: '　',
+            getStartedPayload: 'チャットを開始する',
             startBehavior: 'injection',
             disablePersistentHistory: true,
             disableBranding: true,
