@@ -25,11 +25,19 @@ TODO：スマホ表示のときは全画面にする
 ------------------------------------------------------------ */
 @media only screen and (max-width: 768px) {
     [data-cognigy-webchat-root] [data-cognigy-webchat] {
+
+        padding-bottom: env(safe-area-inset-bottom);
+        padding-top: env(safe-area-inset-top);
+        padding-left: env(safe-area-inset-left);
+        padding-right: env(safe-area-inset-right);
+        /* height: 100vh; → iOS対応なら以下を検討 */
+        height: calc(100vh - env(safe-area-inset-bottom));
+        /* さらに厳密にはJavaScriptでも補正していく… */
+        overflow: auto;
         width: 100%;
-        height: 100%;
+
         bottom: 0 !important;
         right: 0;
-        overflow: auto;
     }
     
     [data-cognigy-webchat-root] .webchat-input {
