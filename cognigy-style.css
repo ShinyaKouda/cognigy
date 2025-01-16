@@ -26,7 +26,7 @@ TODO：スマホ表示のときは全画面にする
 @media only screen and (max-width: 768px) {
     [data-cognigy-webchat-root] [data-cognigy-webchat] {
         width: 100%;
-        height: 100svh;
+        height: 100%;
         bottom: 0 !important;
         right: 0;
         overflow: auto;
