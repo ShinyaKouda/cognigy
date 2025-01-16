@@ -10,8 +10,8 @@
   Webchatの表示サイズ
 ------------------------------------------------------------ */
 [data-cognigy-webchat-root] [data-cognigy-webchat] {
-    width: 600px;
-    height: 92vh;
+    width: 500px;
+    height: 82vh;
     bottom: 30px;
     right: 30px;
     border-radius: 0;
