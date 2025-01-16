@@ -1,9 +1,10 @@
+/* Webchatの背景色
 [data-cognigy-webchat-root] [data-cognigy-webchat].webchat .webchat-chat-history {
-
     background-color: #e8f4ec;
 }
+*/
 
-/* Webchatの表示サイズ */
+/* Webchatの表示サイズ
 [data-cognigy-webchat-root] [data-cognigy-webchat] {
     width: 500px;
     height: 92vh;
@@ -12,8 +13,9 @@
     border-radius: 0;
     font-size: 14px;
 }
+*/
 
-/* レスポンシブ対応：Webchatの表示サイズ */
+/* レスポンシブ対応：Webchatの表示サイズ
 @media only screen and (max-width: 768px) {
     [data-cognigy-webchat-root] [data-cognigy-webchat] {
         width: 100%;
@@ -24,38 +26,42 @@
     
     [data-cognigy-webchat-root] .webchat-input {
         position: fixed;
-        bottom: 0; /* 下に固定 */
-        width: 100%; /* 幅を100%にする */
-        z-index: 1000; /* 常に最前面に表示されるように設定 */
+        bottom: 0;
+        width: 100%;
+        z-index: 1000;
     }
     
 }
+*/
 
 
-/* ヘッダーバー */
+/* ヘッダーバー
 [data-cognigy-webchat-root] [data-cognigy-webchat].webchat .webchat-header-bar {
     color: #fff;
     background: #08645c;
-    
 }
+*/
 
-/* ×ボタンの×だけを白にする */
+/* ×ボタンの×だけを白にする
 [data-cognigy-webchat-root] [data-cognigy-webchat].webchat .webchat-header-close-button svg path:first-of-type {
     fill: #ffffff;
 }
+*/
 
-/* ギャラリー内カード縦サイズ設定 */
+/* ギャラリー内カード縦サイズ設定
 [data-cognigy-webchat-root] .webchat-carousel-template-root {
     flex-grow: unset;
     -webkit-box-flex: unset;
 }
+*/
 
-/* クイックリプライ左揃え設定 */
+/* クイックリプライ左揃え設定
 [data-cognigy-webchat-root] .webchat-quick-reply-template-replies-container {
     text-align: unset;
 }
+*/
 
-/* メッセージ枠線設定 */
+/* メッセージ枠線設定
 [data-cognigy-webchat-root] .regular-message,
 [data-cognigy-webchat-root] .regular-message.bot,
 [data-cognigy-webchat-root] .webchat-buttons-template-root,
@@ -64,8 +70,9 @@
 [data-cognigy-webchat-root] .webchat-carousel-template-frame {
     border: none;
 }
+*/
 
-/* メッセージ文字色設定 */
+/* メッセージ文字色設定
 [data-cognigy-webchat-root] .regular-message.bot,
 [data-cognigy-webchat-root] .webchat-buttons-template-header,
 [data-cognigy-webchat-root] .webchat-buttons-template-button,
@@ -75,9 +82,10 @@
 [data-cognigy-webchat-root] .webchat-carousel-template-button {
     color: #333333;
 }
+*/
 
 
-/* メッセージ背景色設定 */
+/* メッセージ背景色設定
 [data-cognigy-webchat-root] .regular-message,
 [data-cognigy-webchat-root] .regular-message.bot,
 [data-cognigy-webchat-root] .webchat-quick-reply-template-header-message,
@@ -85,19 +93,23 @@
 [data-cognigy-webchat-root] .webchat-buttons-template-header {
     background-color: #c0e4e4;
 }
+*/
 
-/* メッセージ背景色設定 */
+/* メッセージ背景色設定
 [data-cognigy-webchat-root] .webchat-buttons-template-button,
 [data-cognigy-webchat-root] .webchat-carousel-template-title,
 [data-cognigy-webchat-root] .webchat-carousel-template-button {
     background-color: rgb(255,255,255);
 }
+*/
 
-/* ギャラリー左右ボタン常時表示設定 */
+/* ギャラリー左右ボタン常時表示設定
 [data-cognigy-webchat-root] .carousel .control-prev.control-arrow:before {
     border-right: 8px solid #333333;
     transition: all 0.25s ease-in;
 }
+*/
+
 
 [data-cognigy-webchat-root] .carousel .control-prev:hover.control-arrow:before,
 [data-cognigy-webchat-root] .carousel .control-prev:focus.control-arrow:before {
@@ -134,41 +146,48 @@
     width: 90% !important;
 }
 
-/* 中央寄せになってしまうところを強制左寄せにする */
+/* 中央寄せになってしまうところを強制左寄せにする
 [data-cognigy-webchat-root] div.webchat-message-row div.webchat-buttons-template-root {
     text-align:left !important;
 }
+*/
 
 
-/* Imageの画像サイズ*/
-/* CognigyのWebChatのDynamic Image Aspect RatioをONにしておく */
+/* Imageの画像サイズ
+CognigyのWebChatのDynamic Image Aspect RatioをONにしておく必要がある
 [data-cognigy-webchat-root] .webchat-media-template-image {
     width: 100%;
     max-width: 250px !important;
     height: auto;
 }
+*/
 
+/*
 [data-cognigy-webchat-root] button.webchat-input-persistent-menu-item {
     background-color: #c0e4e4 !important;
 }
+*/
 
-/* チャットボットアバター */
+/* チャットボットアバター
 [data-cognigy-webchat-root] [data-cognigy-webchat].webchat .webchat-avatar.bot {
     flex-basis: 30px;
     height: 28px;
 }
+*/
 
-/* アバターの上辺を親要素の上辺に揃える */
+/* アバターの上辺を親要素の上辺に揃える
 [data-cognigy-webchat-root] .webchat-message-row.bot {
     align-items: flex-start;
 }
+*/
 
-/* ユーザーアバター */
+/* ユーザーアバター
 [data-cognigy-webchat-root] .webchat-avatar.user {
     display: none;
 }
+*/
 
-/* チャット開始ボタン */
+/* チャット開始ボタン
 [data-cognigy-webchat-root] .cognigy-webchat-npitrr,
 [data-cognigy-webchat-root] .cognigy-webchat-npitrr.active, 
 [data-cognigy-webchat-root] .cognigy-webchat-npitrr:hover {
@@ -179,8 +198,9 @@
     background-size: cover;
     background-position: center;
 }
+*/
 
-/* レスポンシブ対応：チャット開始ボタン */
+/* レスポンシブ対応：チャット開始ボタン
 @media only screen and (max-width: 768px) {
     [data-cognigy-webchat-root] .cognigy-webchat-npitrr,
     [data-cognigy-webchat-root] .cognigy-webchat-npitrr.active, 
@@ -193,8 +213,10 @@
         background-position: center;
     }
 }
+*/
 
-/* チャット開始ボタンのデフォルトの画像を消す */
+/* チャット開始ボタンのデフォルトの画像を消す
 [data-cognigy-webchat-root] .webchat-toggle-button.cognigy-webchat-npitrr svg {
     display: none;
 }
+*/
