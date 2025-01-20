@@ -309,7 +309,7 @@ TODO：スマホ表示のときは全画面にする
 /* トリガー画像 */
 #chatbot-trigger {
     position: fixed;
-    left: 0;
+    right: 30px;
     bottom: 30px;
     z-index: 1000;
     cursor: pointer;
