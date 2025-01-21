@@ -319,10 +319,10 @@ TODO：スマホ表示のときは全画面にする
 
 #language-selector button {
   display: block;
-  width: 100%;
+  width: 140px;
   margin: 8px 0;
 }
 
 #language-selector {
-  width: 200px; /* 親コンテナの幅など調整 */
+  width: 150px; /* 親コンテナの幅など調整 */
 }
