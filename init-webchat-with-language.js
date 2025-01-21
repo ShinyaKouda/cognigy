@@ -36,9 +36,9 @@ function getDeepLURL(mode) {
 
     if(mode === "開発"){
         url = "https://cognigy-v4-ep.scorobo.ai/3300c767e15303576ac6bbd6ac4cde50fb2346cd58178eb78ec2990027d282a6"
-    else if(mode == "検証"){
+    } else if(mode == "検証"){
         url = "https://cognigy-v4-ep.scorobo.ai/f4045a80f165a896bc602d60c429b3cc6599a4c5063c2fd3426cf1b59005802a"
-    else if(mode === "本番"){
+    } else if(mode === "本番"){
         url = "https://cognigy-v4-ep.scorobo.ai/29615deaf132eec41f90b0feb4d04c7aff0024abf4d18ad8cc449a7495820de3"
 
     return url
@@ -51,9 +51,9 @@ function getGoogleURL(mode) {
 
     if(mode === "開発"){
         url = "https://cognigy-v4-ep.scorobo.ai/0cd5681a09a95c7b15e25b03e84e683557fdf27344a7f859404ad7fcea71010f"
-    else if(mode == "検証"){
+    } else if(mode == "検証"){
         url = "https://cognigy-v4-ep.scorobo.ai/17e585e99b5b84c3fcf4d1bd5e0bef8c4981a0ae7197317298451edf767a9fbf"
-    else if(mode === "本番"){
+    } else if(mode === "本番"){
         url = "https://cognigy-v4-ep.scorobo.ai/555ecd8479443a740e06b2415d290ac56b3090297486c1052ad20af279852de2"
 
     return url
