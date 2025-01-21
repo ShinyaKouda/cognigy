@@ -317,9 +317,12 @@ TODO：スマホ表示のときは全画面にする
     height: auto;
 }
 
+#language-selector button {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+}
+
 #language-selector {
-  display: flex;
-  flex-direction: column;
-  width: 200px;
-  gap: 8px; /* ボタンどうしの間隔 */
+  width: 200px; /* 親コンテナの幅など調整 */
 }
