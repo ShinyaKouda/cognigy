@@ -1,5 +1,5 @@
 // Webchatを初期化する関数
-function initMyWebchat(url, payload, title) {
+function initMyWebchat(url, payload) {
     initWebchat(url, {
         settings: {
             getStartedText: '',
