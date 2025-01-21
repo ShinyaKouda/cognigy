@@ -319,13 +319,7 @@ TODO：スマホ表示のときは全画面にする
 
 #language-selector {
   display: flex;
-  flex-direction: column; /* ボタンを縦方向に積む */
-  gap: 8px;               /* ボタン同士の隙間を調整 */
+  flex-direction: column;
+  width: 200px;
+  gap: 8px; /* ボタンどうしの間隔 */
 }
-
-#language-selector button {
-  /* 必要に応じて幅や余白などを指定 */
-  width: 150px; 
-  margin: 0 auto;         /* 中央寄せしたい場合 */
-}
-
