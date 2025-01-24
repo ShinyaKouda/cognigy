@@ -254,10 +254,11 @@ TODO：スマホ表示のときは全画面にする
 
 /*------------------------------------------------------------
   チャット開始ボタン
-------------------------------------------------------------
+------------------------------------------------------------*/
 [data-cognigy-webchat-root] .cognigy-webchat-npitrr,
 [data-cognigy-webchat-root] .cognigy-webchat-npitrr.active, 
 [data-cognigy-webchat-root] .cognigy-webchat-npitrr:hover {
+    background-image: url(chat-start.png)
     width: 192px;
     height: 96px;
     bottom: 120px !important;
@@ -265,15 +266,16 @@ TODO：スマホ表示のときは全画面にする
     background-size: cover;
     background-position: center;
 }
-*/
+
 
 /*------------------------------------------------------------
   レスポンシブ対応：チャット開始ボタン
-------------------------------------------------------------
+------------------------------------------------------------*/
 @media only screen and (max-width: 768px) {
     [data-cognigy-webchat-root] .cognigy-webchat-npitrr,
     [data-cognigy-webchat-root] .cognigy-webchat-npitrr.active, 
     [data-cognigy-webchat-root] .cognigy-webchat-npitrr:hover {
+        background-image: url(chat-start.png)
         width: 128px;
         height: 64px;
         bottom: 80px !important;
@@ -282,17 +284,14 @@ TODO：スマホ表示のときは全画面にする
         background-position: center;
     }
 }
-*/
 
 /*------------------------------------------------------------
   チャット開始ボタンのデフォルトの画像を消す
-------------------------------------------------------------
+------------------------------------------------------------*/
 [data-cognigy-webchat-root] .webchat-toggle-button.cognigy-webchat-npitrr svg {
     display: none;
-    opacity: 0;
-    pointer-events: none;
 }
-*/
+
 
 
 /* 言語選択ボタン */
@@ -317,8 +316,6 @@ TODO：スマホ表示のときは全画面にする
     z-index: 1000;
     cursor: pointer;
     width: 50px; /* 必要に応じてサイズ調整 */
-    height: auto;
-    opacity: 0;
 }
 
 #language-selector button {
