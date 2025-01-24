@@ -299,7 +299,7 @@ TODO：スマホ表示のときは全画面にする
 [data-cognigy-webchat-custom] {
     position: fixed;
     bottom: 30px;
-    right: 30px;
+    right: 60px;
     z-index: 1000;
     background-color: #fff;
     border: 1px solid #ccc;
@@ -313,7 +313,7 @@ TODO：スマホ表示のときは全画面にする
 #chatbot-trigger {
     position: fixed;
     right: 30px;
-    bottom: 30px;
+    bottom: 60px;
     z-index: 1000;
     cursor: pointer;
     width: 50px; /* 必要に応じてサイズ調整 */
