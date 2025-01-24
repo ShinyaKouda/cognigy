@@ -66,7 +66,7 @@ document.getElementById("chatbot-trigger").addEventListener("click", function ()
     // 言語選択ボタンを表示
     document.getElementById("language-selector").style.display = "block";
     // トリガー画像を非表示
-    //this.style.display = "none";
+    this.style.display = "none";
 });
 
 document.addEventListener('DOMContentLoaded', function () {
