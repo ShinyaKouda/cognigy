@@ -286,12 +286,13 @@ TODO：スマホ表示のときは全画面にする
 
 /*------------------------------------------------------------
   チャット開始ボタンのデフォルトの画像を消す
-------------------------------------------------------------*/
+------------------------------------------------------------
 [data-cognigy-webchat-root] .webchat-toggle-button.cognigy-webchat-npitrr svg {
     display: none;
-    opacity: 0; /* 完全に透明にする */
-    pointer-events: none; /* クリックやホバーなどの操作を無効化 */
+    opacity: 0;
+    pointer-events: none;
 }
+*/
 
 
 /* 言語選択ボタン */
@@ -317,6 +318,7 @@ TODO：スマホ表示のときは全画面にする
     cursor: pointer;
     width: 50px; /* 必要に応じてサイズ調整 */
     height: auto;
+    opacity: 0;
 }
 
 #language-selector button {
