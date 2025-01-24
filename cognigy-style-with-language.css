@@ -258,7 +258,7 @@ TODO：スマホ表示のときは全画面にする
 [data-cognigy-webchat-root] .cognigy-webchat-npitrr,
 [data-cognigy-webchat-root] .cognigy-webchat-npitrr.active, 
 [data-cognigy-webchat-root] .cognigy-webchat-npitrr:hover {
-    background-image: url(chat-start.png)
+    background-image: url(chat_icon.png)
     width: 192px;
     height: 96px;
     bottom: 120px !important;
@@ -275,7 +275,7 @@ TODO：スマホ表示のときは全画面にする
     [data-cognigy-webchat-root] .cognigy-webchat-npitrr,
     [data-cognigy-webchat-root] .cognigy-webchat-npitrr.active, 
     [data-cognigy-webchat-root] .cognigy-webchat-npitrr:hover {
-        background-image: url(chat-start.png)
+        background-image: url(chat_icon.png)
         width: 128px;
         height: 64px;
         bottom: 80px !important;
