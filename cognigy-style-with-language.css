@@ -254,7 +254,7 @@ TODO：スマホ表示のときは全画面にする
 
 /*------------------------------------------------------------
   チャット開始ボタン
-------------------------------------------------------------*/
+------------------------------------------------------------
 [data-cognigy-webchat-root] .cognigy-webchat-npitrr,
 [data-cognigy-webchat-root] .cognigy-webchat-npitrr.active, 
 [data-cognigy-webchat-root] .cognigy-webchat-npitrr:hover {
@@ -265,11 +265,11 @@ TODO：スマホ表示のときは全画面にする
     background-size: cover;
     background-position: center;
 }
-
+*/
 
 /*------------------------------------------------------------
   レスポンシブ対応：チャット開始ボタン
-------------------------------------------------------------*/
+------------------------------------------------------------
 @media only screen and (max-width: 768px) {
     [data-cognigy-webchat-root] .cognigy-webchat-npitrr,
     [data-cognigy-webchat-root] .cognigy-webchat-npitrr.active, 
@@ -282,6 +282,7 @@ TODO：スマホ表示のときは全画面にする
         background-position: center;
     }
 }
+*/
 
 /*------------------------------------------------------------
   チャット開始ボタンのデフォルトの画像を消す
