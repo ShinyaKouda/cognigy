@@ -12,7 +12,7 @@
 [data-cognigy-webchat-root] [data-cognigy-webchat] {
     width: 480px;
     height: 75vh;
-    bottom: 90px;
+    bottom: 120px; /* Webchatのチャット用ウィンドウの下端座標 */
     right: 30px;
     border-radius: 20;
     font-size: 14px;
@@ -282,6 +282,8 @@ TODO：スマホ表示のときは全画面にする
 ------------------------------------------------------------*/
 [data-cognigy-webchat-root] .webchat-toggle-button.cognigy-webchat-npitrr svg {
     display: none;
+    right: 30px;
+    bottom: 60px;
 }
 
 
