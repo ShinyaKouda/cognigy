@@ -307,7 +307,7 @@ TODO：スマホ表示のときは全画面にする
     bottom: 60px;
     z-index: 1000;
     cursor: pointer;
-    width: 100%;
+    width: 200px;
 }
 
 
