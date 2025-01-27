@@ -307,7 +307,7 @@ TODO：スマホ表示のときは全画面にする
     font-size: 14px;
 }
 
-/* トリガー画像
+
 #chatbot-trigger {
     position: fixed;
     right: 30px;
@@ -316,8 +316,8 @@ TODO：スマホ表示のときは全画面にする
     cursor: pointer;
     width: 50px;
 }
-*/
 
+/* トリガー画像
 #language-selector button {
   display: block;
   width: 140px;
@@ -325,7 +325,7 @@ TODO：スマホ表示のときは全画面にする
 }
 
 #language-selector {
-  width: 150px; /* 親コンテナの幅など調整 */
+  width: 150px;
 }
 
 #chatbot-trigger {
@@ -359,4 +359,4 @@ TODO：スマホ表示のときは全画面にする
     width: 24px;
     height: 24px;
 }
-
+*/
