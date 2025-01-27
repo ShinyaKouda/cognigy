@@ -280,9 +280,9 @@ TODO：スマホ表示のときは全画面にする
 /*------------------------------------------------------------
   チャット開始ボタン
 ------------------------------------------------------------*/
-[data-cognigy-webchat-root] .webchat-toggle-button {
-    right: 30;
-    bottom: 60;
+[data-cognigy-webchat-root] button[data-cognigy-webchat-toggle] {
+  right: 30px;
+  bottom: 60px;
 }
 
 /*------------------------------------------------------------
