@@ -7,12 +7,12 @@
 */
 
 /*------------------------------------------------------------
-  Webchatの表示サイズ
+  Webchatの表示サイズと位置、角の半径
 ------------------------------------------------------------ */
 [data-cognigy-webchat-root] [data-cognigy-webchat] {
     width: 480px;
     height: 75vh;
-    bottom: 30px;
+    bottom: 150px; /* Webchatのチャット用ウィンドウの下端座標 */
     right: 30px;
     border-radius: 20;
     font-size: 14px;
@@ -254,40 +254,61 @@ TODO：スマホ表示のときは全画面にする
 
 /*------------------------------------------------------------
   チャット開始ボタン
-------------------------------------------------------------
+------------------------------------------------------------*/
 [data-cognigy-webchat-root] .cognigy-webchat-npitrr,
 [data-cognigy-webchat-root] .cognigy-webchat-npitrr.active, 
 [data-cognigy-webchat-root] .cognigy-webchat-npitrr:hover {
-    width: 192px;
-    height: 96px;
-    bottom: 120px !important;
+    /* webサイト事業者様へ
+       以下のchat-start.pngへのパスを、このcssファイルからの相対パスまたは、絶対パスに書き換えてください。
+    */
+    background-image: url(chat-start.png);
+    bottom: 60px;
+    right: 30px;
     border-radius: 0%;
     background-size: cover;
     background-position: center;
 }
-*/
 
 /*------------------------------------------------------------
   レスポンシブ対応：チャット開始ボタン
-------------------------------------------------------------
+------------------------------------------------------------*/
 @media only screen and (max-width: 768px) {
     [data-cognigy-webchat-root] .cognigy-webchat-npitrr,
     [data-cognigy-webchat-root] .cognigy-webchat-npitrr.active, 
     [data-cognigy-webchat-root] .cognigy-webchat-npitrr:hover {
-        width: 128px;
-        height: 64px;
-        bottom: 80px !important;
+        /* webサイト事業者様へ
+        以下のchat-start.pngへのパスを、このcssファイルからの相対パスまたは、絶対パスに書き換えてください。
+        */
+        background-image: url(chat-start.png);
+        bottom: 60px;
+        right: 30px;
         border-radius: 0%;
         background-size: cover;
         background-position: center;
     }
 }
-*/
+
+/*------------------------------------------------------------
+  チャット開閉ボタンの位置調整
+------------------------------------------------------------*/
+[data-cognigy-webchat-root] button[data-cognigy-webchat-toggle] {
+  right: 30px;
+  bottom: 80px;
+}
 
 /*------------------------------------------------------------
   チャット開始ボタンのデフォルトの画像を消す
-------------------------------------------------------------
+------------------------------------------------------------*/
 [data-cognigy-webchat-root] .webchat-toggle-button.cognigy-webchat-npitrr svg {
     display: none;
 }
-*/
+
+
+#chatbot-trigger {
+    position: fixed;
+    right: 30px;
+    bottom: 80px;
+    z-index: 1000;
+    cursor: pointer;
+    width: 200px;
+}
