@@ -258,8 +258,8 @@ TODO：スマホ表示のときは全画面にする
 [data-cognigy-webchat-root] .cognigy-webchat-yg72nb.active, 
 [data-cognigy-webchat-root] .cognigy-webchat-yg72nb:hover {
     background-image: url(https://shinyakouda.github.io/cognigy/chat_icon.png);
-    width: 300px;
-    height: 96px;
+    width: 200px;
+    height: 64px;
     bottom: 80px;
     right: 30px;
     border-radius: 0%;
@@ -275,8 +275,8 @@ TODO：スマホ表示のときは全画面にする
     [data-cognigy-webchat-root] .cognigy-webchat-yg72nb.active, 
     [data-cognigy-webchat-root] .cognigy-webchat-yg72nb:hover {
         background-image: url(https://shinyakouda.github.io/cognigy/chat_icon.png);
-        width: 200px;
-        height: 64px;
+        width: 150px;
+        height: 48px;
         bottom: 80px;
         right: 30px;
         border-radius: 0%;
