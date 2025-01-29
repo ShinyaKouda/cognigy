@@ -35,7 +35,6 @@ TODO：スマホ表示のときは全画面にする
         /* さらに厳密にはJavaScriptでも補正していく… */
         overflow: auto;
         width: 100%;
-
         bottom: 0 !important;
         right: 0;
     }
@@ -255,14 +254,15 @@ TODO：スマホ表示のときは全画面にする
 /*------------------------------------------------------------
   チャット開始ボタン
 ------------------------------------------------------------*/
-[data-cognigy-webchat-root] .cognigy-webchat-npitrr,
-[data-cognigy-webchat-root] .cognigy-webchat-npitrr.active, 
-[data-cognigy-webchat-root] .cognigy-webchat-npitrr:hover {
+[data-cognigy-webchat-root] .cognigy-webchat-yg72nb,
+[data-cognigy-webchat-root] .cognigy-webchat-yg72nb.active, 
+[data-cognigy-webchat-root] .cognigy-webchat-yg72nb:hover {
     /* webサイト事業者様へ
        以下のchat-start.pngへのパスを、このcssファイルからの相対パスまたは、絶対パスに書き換えてください。
     */
     background-image: url(chat-start.png);
-    bottom: 60px;
+    width: 200px;
+    bottom: 80px;
     right: 30px;
     border-radius: 0%;
     background-size: cover;
@@ -273,14 +273,15 @@ TODO：スマホ表示のときは全画面にする
   レスポンシブ対応：チャット開始ボタン
 ------------------------------------------------------------*/
 @media only screen and (max-width: 768px) {
-    [data-cognigy-webchat-root] .cognigy-webchat-npitrr,
-    [data-cognigy-webchat-root] .cognigy-webchat-npitrr.active, 
-    [data-cognigy-webchat-root] .cognigy-webchat-npitrr:hover {
+    [data-cognigy-webchat-root] .cognigy-webchat-yg72nb,
+    [data-cognigy-webchat-root] .cognigy-webchat-yg72nb.active, 
+    [data-cognigy-webchat-root] .cognigy-webchat-yg72nb:hover {
         /* webサイト事業者様へ
         以下のchat-start.pngへのパスを、このcssファイルからの相対パスまたは、絶対パスに書き換えてください。
         */
         background-image: url(chat-start.png);
-        bottom: 60px;
+        width: 200px;
+        bottom: 80px;
         right: 30px;
         border-radius: 0%;
         background-size: cover;
@@ -299,16 +300,5 @@ TODO：スマホ表示のときは全画面にする
 /*------------------------------------------------------------
   チャット開始ボタンのデフォルトの画像を消す
 ------------------------------------------------------------*/
-[data-cognigy-webchat-root] .webchat-toggle-button.cognigy-webchat-npitrr svg {
+[data-cognigy-webchat-root] .webchat-toggle-button.cognigy-webchat-yg72nb svg {
     display: none;
-}
-
-
-#chatbot-trigger {
-    position: fixed;
-    right: 30px;
-    bottom: 80px;
-    z-index: 1000;
-    cursor: pointer;
-    width: 200px;
-}
