@@ -12,7 +12,7 @@
 [data-cognigy-webchat-root] [data-cognigy-webchat] {
     width: 480px;
     height: 75vh;
-    bottom: 150px; /* Webchatのチャット用ウィンドウの下端座標 */
+    bottom: 170px; /* Webchatのチャット用ウィンドウの下端座標 */
     right: 30px;
     border-radius: 20;
     font-size: 14px;
@@ -260,7 +260,7 @@ TODO：スマホ表示のときは全画面にする
     background-image: url(https://shinyakouda.github.io/cognigy/chat_icon.png);
     width: 240px;
     height: 69px;
-    bottom: 80px;
+    bottom: 100px;
     right: 30px;
     border-radius: 0%;
     background-size: cover;
@@ -277,7 +277,7 @@ TODO：スマホ表示のときは全画面にする
         background-image: url(https://shinyakouda.github.io/cognigy/chat_icon.png);
         width: 160px;
         height: 46px;
-        bottom: 80px;
+        bottom: 100px;
         right: 30px;
         border-radius: 0%;
         background-size: cover;
@@ -290,7 +290,7 @@ TODO：スマホ表示のときは全画面にする
 ------------------------------------------------------------*/
 [data-cognigy-webchat-root] button[data-cognigy-webchat-toggle] {
   right: 30px;
-  bottom: 80px;
+  bottom: 100px;
 }
 
 /*------------------------------------------------------------
